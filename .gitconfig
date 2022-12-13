@@ -1,0 +1,22 @@
+[core]
+	editor = \"C:\\Users\\son\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	name = Nguyễn Ngọc Sơn
+	email = nnson0310@gmail.com
+[alias]
+	hide = update-index --assume-unchanged 
+	unhide = update-index --no-assume-unchanged
+	hidden = ls-files -v | grep h\ 
+	mr = push -u origin HEAD
+	st = status
+	cm = commit -m
+	bd = branch -D
+	cd = checkout develop
+	pd = pull origin develop
+	md = merge develop
+	rd = rebase develop
+	cb = checkout -b
+	r = checkout -
+	fd = fetch origin develop
+[credential]
+	helper = manager-core
