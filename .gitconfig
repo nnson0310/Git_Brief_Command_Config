@@ -6,7 +6,7 @@
 [alias]
 	hide = update-index --assume-unchanged 
 	unhide = update-index --no-assume-unchanged
-	hidden = ls-files -v | grep h\ 
+	hidden = ls-files -v | grep h
 	mr = push -u origin HEAD
 	st = status
 	cm = commit -m
